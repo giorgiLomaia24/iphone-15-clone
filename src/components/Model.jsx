@@ -44,8 +44,8 @@ const Model = () => {
     gsap.to('#heading',{opacity:1,y:0,})
   },[])
   return (
-    <section className='common-padding'>
-      <div className="screen-max-width">
+    <section className='common-padding '>
+      <div className="screen-max-width overflow-x-hidden ">
         <h1 id="heading" className='section-heading'>
           take a closer look.
         </h1>
